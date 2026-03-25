@@ -32,4 +32,4 @@ spec:
           prune: false # Allows ArgoCD to delete resources that are removed from Git
           selfHeal: true # Automatically reverts manual changes made to the cluster
         syncOptions:
-        - CreateNamespace=true 
+          - CreateNamespace=true 
